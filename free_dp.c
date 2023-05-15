@@ -10,7 +10,7 @@ char **free_dp(char **line)
 {
 	int i;
 
-	for (i = 0; line[i]; x++)
+	for (i = 0; line[i]; i++)
 	{
 		free(line[i]);
 		line[i] = NULL;
