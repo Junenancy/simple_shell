@@ -58,7 +58,7 @@ int count_chr(char *str, char *delimits)
  */
 char **get_path(char **env)
 {
-	char *str = ""PATH, *my_path, *aux, **paths;
+	char *str = "PATH", *my_path, *aux, **paths;
 	unsigned int i = 0, j = 0, size;
 
 	if (env == NULL)
