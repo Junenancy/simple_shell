@@ -6,6 +6,6 @@
  */
 void prompt_shell(void)
 {
-	write(STDOUT, "\033[1;31mMi_shell/user@root$ ", 32);
+	write(STDOUT, "\033[1;31msimple_shell/user@root$ ", 36);
 	write(STDOUT, "\033[0m", 4);
 }
