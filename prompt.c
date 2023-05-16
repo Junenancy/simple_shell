@@ -3,7 +3,6 @@
  * prompt_shell - function that prints the prompt
  *
  * @void: empty
- * Return: nothing
  */
 void prompt_shell(void)
 {
