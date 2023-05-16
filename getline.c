@@ -12,7 +12,7 @@ char *get_line(int isatty_val)
 
 	if (isatty_val == 1)
 	{
-	write(STDOUT, "\033[1;31mMi_shell/user@root$ ", 32);
+	write(STDOUT, "\033[1;31msimple_shell/user@root$ ", 36);
 	write(STDOUT, "\033[0m", 4);
 	}
 
