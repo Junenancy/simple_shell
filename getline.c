@@ -27,5 +27,6 @@ char *get_line(int isatty_val)
 		free(line);
 		exit(EXIT_SUCCESS);
 	}
+
 	return (line);
 }
