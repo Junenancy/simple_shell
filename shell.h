@@ -42,4 +42,5 @@ void _printenv(char **environ);
 int _putchar(char c);
 void _puts(char *str);
 char **_path(char **environ);
+int _alias(void);
 #endif
