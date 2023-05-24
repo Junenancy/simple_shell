@@ -20,6 +20,7 @@
 #define CLEAR_SCREEN write(STDOUT, "\033[H\033[J", 6) /*a macro*/
 #define NEW_LINE write(STDOUT, "\n", 1) /*a macro*/
 #define TOK_BUFSIZE 64
+
 extern char **environ;
 
 char **free_dp(char **line);
