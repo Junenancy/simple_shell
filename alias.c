@@ -6,8 +6,8 @@
  */
 int _alias(void)
 {
-	_puts("alias: usage: alias [-i] [name[=value] ...]\n");
+	_puts("alias: usage: alias [-p] [name[=value] ...]\n");
 	_puts("\tSet or view aliases.\n\tSet with name=value\n");
-	_puts("\tView list of alias with no arguments or -i\n");
+	_puts("\tView list of alias with no arguments or -p\n");
 	return (0);
 }
