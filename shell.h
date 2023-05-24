@@ -42,9 +42,4 @@ void _printenv(char **environ);
 int _putchar(char c);
 void _puts(char *str);
 char **_path(char **environ);
-int _alias(void);
-int (*_builtin(char *cmd))();
-int _exit_builtin(char **tokens, list_t *linkedlist_path, char * buffer);
-int _cd(char **tokens);
-int _history(void);
 #endif
